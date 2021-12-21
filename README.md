@@ -128,6 +128,9 @@ Marten is a powerful library which allows PostgreSQL to be used a hybrid/NoSQL d
 
 ### Recommended
 
+A good combination of libraries for implementing tests is xUnit as the test framework, Bogus for the generation of fake data and FluentAssertions for assertions.
+
+- xUnit ([Homepage](https://xunit.net/) | [GitHub](https://github.com/xunit/xunit))
 - Bogus ([GitHub](https://github.com/bchavez/Bogus))
 - FluentAssertions ([Homepage](https://fluentassertions.com/) | [GitHub](https://github.com/fluentassertions/fluentassertions))
 
