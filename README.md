@@ -118,6 +118,12 @@ Marten is a powerful library which allows PostgreSQL to be used a hybrid/NoSQL d
 
 - QuestPDF ([Homepage](https://www.questpdf.com/) | [GitHub](https://github.com/QuestPDF/QuestPDF))
 
+# Reverse Proxy/API Gateway
+
+### Recommended
+
+- yarp ([Homepage](https://microsoft.github.io/reverse-proxy/) | [GitHub](https://github.com/microsoft/reverse-proxy))
+
 # Testing
 
 ### Recommended
