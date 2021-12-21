@@ -29,6 +29,12 @@ ASP.NET Core has built-in [dependency injection feature](https://docs.microsoft.
 
 - StrongInject ([StrongInject](https://github.com/YairHalberstadt/stronginject))
 
+# Email Templating
+
+Scriban is a highly-performance templating engine which can used not only for email templating, but many other purposes besides.
+
+- Scriban ([GitHub](https://github.com/scriban/scriban))
+
 # Encryption
 
 ### Recommended
