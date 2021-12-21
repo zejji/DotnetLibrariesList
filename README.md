@@ -29,6 +29,18 @@ ASP.NET Core has built-in [dependency injection feature](https://docs.microsoft.
 
 - StrongInject ([StrongInject](https://github.com/YairHalberstadt/stronginject))
 
+# Console Applications
+
+### Recommended
+
+- ConsoleAppFramework ([GitHub](https://github.com/Cysharp/ConsoleAppFramework))
+
+### Alternatives
+
+System.CommandLine is sufficient for very simple scenarios.
+
+- System.CommandLine ([GitHub](https://github.com/dotnet/command-line-api))
+
 # Email Templating
 
 Scriban is a highly-performance templating engine which can used not only for email templating, but many other purposes besides.
