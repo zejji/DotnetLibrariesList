@@ -8,14 +8,24 @@ Each section lists a recommended library or libraries, optionally followed by on
 
 ### Recommended
 
+Hangfire is a mature and powerful background job manager which requires minimal setup. Using Redis rather than a SQL database as the backing storage improves throughput. The official Redis support requires a paid 'pro' license, but the open-source StackExchange.Hangfire.Redis repo provides a free alternative.
+
 - Hangfire ([Homepage](https://www.hangfire.io/) | [Github](https://github.com/HangfireIO/Hangfire))
 - StackExchange.Hangfire.Redis ([Github](https://github.com/marcoCasamento/Hangfire.Redis.StackExchange))
 
 # Caching
 
+Since ASP.NET Core applications run in a persistent process, non-distributed caching can be implemented without external infrastructure dependencies. Bitfaster.Caching offers a good set of features and high performance.
+
 ### Recommended
 
 - Bitfaster.Caching ([GitHub](https://github.com/bitfaster/BitFaster.Caching))
+
+### Alternatives
+
+For a distributed Redis cache, one can use StackExchange.Redis together with the Microsoft.Extensions.Caching.StackExchangeRedis `IDistributedCache` implementation (see [here](https://docs.microsoft.com/en-us/aspnet/core/performance/caching/distributed?view=aspnetcore-6.0)).
+
+- StackExchange.Redis ([GitHub](https://github.com/StackExchange/StackExchange.Redis))
 
 # Compile-time Dependency Injection
 
