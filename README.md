@@ -4,6 +4,25 @@ This repository contains a curated list of modern, open-source .NET libraries wh
 
 Each section lists a recommended library or libraries, optionally followed by one or more good alternatives.
 
+# Table of Contents
+
+- [Background Jobs](#background-jobs)
+- [Caching](#caching)
+- [Compile-time Dependency Injection](#compile-time-dependency-injection)
+- [Console Applications](#console-applications)
+- [Email Templating](#email-templating)
+- [Encryption](#encryption)
+- [ETL](#etl)
+- [Event/Message Bus](#eventmessage-bus)
+- [GUI applications](#gui-applications)
+- [Logging](#logging)
+- [Mediator pattern](#mediator-pattern)
+- [ORM and Database Access](#orm-and-database-access)
+- [PDF generation](#pdf-generation)
+- [Reverse Proxy/API Gateway](#reverse-proxyapi-gateway)
+- [Testing](#testing)
+- [Workflows](#workflows)
+
 # Background Jobs
 
 ### Recommended
