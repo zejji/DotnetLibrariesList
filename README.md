@@ -105,7 +105,7 @@ Scriban is a highly-performance templating engine which can used not only for em
 
 ### Recommended
 
-Entity Framework is an incredibly powerful ORM which provides advanced, strongly-typed querying capabilities, good performance - particularly since a host of improvements were made in EF Core 6 - and inbuilt support for the unit of work pattern. EFCore.BulkExtensions can be used to improve performance when dealing with bulk CUD operations, which becomes noticeable when dealing with operations on 100s or 1000s of entities. If a second-level cache is required, EF Core Second Level Cache Interceptor can be used.
+Entity Framework is an incredibly powerful ORM which provides advanced, strongly-typed querying capabilities, good performance - particularly since a host of improvements were made in EF Core 6 - and inbuilt support for the [unit of work](https://martinfowler.com/eaaCatalog/unitOfWork.html) pattern. EFCore.BulkExtensions can be used to improve performance when dealing with bulk CUD operations, the impact of which becomes noticeable when dealing with operations on 100s or 1000s of entities. If a second-level cache is required, EF Core Second Level Cache Interceptor can be used.
 
 In advanced scenarios, when more than one database transaction may be required per web request, the DbContextScope library is useful. This allows for more fine-grained control over the lifetime of the DbContext than simply injecting the DbContext as a scoped dependency. For more information, see Mehdi El Gueddari's 2014 article [here](https://mehdi.me/ambient-dbcontext-in-ef6/).
 
