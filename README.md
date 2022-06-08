@@ -40,7 +40,7 @@ Since ASP.NET Core applications run in a persistent process, non-distributed cac
 ### Recommended
 
 - Bitfaster.Caching ([GitHub](https://github.com/bitfaster/BitFaster.Caching))
-- CacheTower([GitHub](https://github.com/TurnerSoftware/CacheTower))
+- CacheTower ([GitHub](https://github.com/TurnerSoftware/CacheTower))
 
 ### Alternatives
 
