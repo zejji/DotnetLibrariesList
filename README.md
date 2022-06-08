@@ -73,9 +73,10 @@ System.CommandLine is sufficient for very simple scenarios.
 
 # Email Templating
 
-Scriban is a highly-performance templating engine which can used not only for email templating, but many other purposes besides.
+Scriban is a high-performance templating engine which can used not only for email templating, but many other purposes besides. Fluid claims to be even faster than Scriban.
 
 - Scriban ([GitHub](https://github.com/scriban/scriban))
+- Fluid ([GitHub](https://github.com/sebastienros/fluid))
 
 # Encryption
 
