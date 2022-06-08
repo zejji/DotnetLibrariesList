@@ -34,11 +34,12 @@ Hangfire is a mature and powerful background job manager which requires minimal 
 
 # Caching
 
-Since ASP.NET Core applications run in a persistent process, non-distributed caching can be implemented without external infrastructure dependencies. Bitfaster.Caching offers a good set of features and high performance.
+Since ASP.NET Core applications run in a persistent process, non-distributed caching can be implemented without external infrastructure dependencies. Bitfaster.Caching offers a good set of features and high performance. CacheTower offers a multi-layered caching system, which could be useful if caching large amounts of expensive queries which do not fit easily in memory.
 
 ### Recommended
 
 - Bitfaster.Caching ([GitHub](https://github.com/bitfaster/BitFaster.Caching))
+- CacheTower([GitHub](https://github.com/TurnerSoftware/CacheTower))
 
 ### Alternatives
 
