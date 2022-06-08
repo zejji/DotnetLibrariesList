@@ -16,6 +16,7 @@ Each section lists a recommended library or libraries, optionally followed by on
 - [Event/Message Bus](#eventmessage-bus)
 - [GUI applications](#gui-applications)
 - [Logging](#logging)
+- [Markdown to PDF](#markdown-to-pdf)
 - [Mediator pattern](#mediator-pattern)
 - [ORM and Database Access](#orm-and-database-access)
 - [PDF generation](#pdf-generation)
@@ -111,6 +112,10 @@ Scriban is a high-performance templating engine which can used not only for emai
 ### Recommended
 
 - ZLogger ([GitHub](https://github.com/Cysharp/ZLogger))
+
+# Markdown to PDF
+
+- Markdig ([GitHub](https://github.com/xoofx/markdig))
 
 # Mediator pattern
 
