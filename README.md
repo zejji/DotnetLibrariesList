@@ -156,10 +156,14 @@ Entity Framework is an incredibly powerful ORM which provides advanced, strongly
 
 In advanced scenarios, when more than one database transaction may be required per web request, the DbContextScope library is useful. This allows for more fine-grained control over the lifetime of the DbContext than simply injecting the DbContext as a scoped dependency. For more information, see Mehdi El Gueddari's 2014 article [here](https://mehdi.me/ambient-dbcontext-in-ef6/).
 
+To allow for primary keys that can be generated in application code and can be more efficiently sorted than standard GUIDs (particularly in databases which do not support non-clustered primary keys), consider [ULIDs](https://sudhir.io/uuids-ulids) or [COMB GUIDs](https://jim.blacksweb.com/2017/01/23/comb-guid-what-is-it-and-why-should-i-use-it/).
+
 - Entity Framework Core ([GitHub](https://github.com/dotnet/efcore))
 - EFCore.BulkExtensions ([GitHub](https://github.com/borisdj/EFCore.BulkExtensions/blob/master/README.md))
 - EF Core Second Level Cache Interceptor ([GitHub](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor))
 - DbContextScopeEFCore ([GitHub](https://github.com/zejji/DbContextScopeEFCore))
+- Cysharp/Ulid ([GitHub](https://github.com/Cysharp/Ulid))
+- RT.Comb ([GitHub](https://github.com/richardtallent/RT.Comb))
 
 ### Alternatives
 
