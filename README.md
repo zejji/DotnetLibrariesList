@@ -159,7 +159,7 @@ In advanced scenarios, when more than one database transaction may be required p
 To allow for primary keys that can be generated in application code and can be more efficiently sorted than standard GUIDs (particularly in databases which do not support non-clustered primary keys), consider [ULIDs](https://sudhir.io/uuids-ulids) or [COMB GUIDs](https://jim.blacksweb.com/2017/01/23/comb-guid-what-is-it-and-why-should-i-use-it/).
 
 - Entity Framework Core ([GitHub](https://github.com/dotnet/efcore))
-- EFCore.BulkExtensions ([GitHub](https://github.com/borisdj/EFCore.BulkExtensions))
+- EFCore.BulkExtensions ([Homepage](https://codis.tech/efcorebulk/) | [GitHub](https://github.com/borisdj/EFCore.BulkExtensions)) (**NB: PAID license**)
 - EF Core Second Level Cache Interceptor ([GitHub](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor))
 - DbContextScopeEFCore ([GitHub](https://github.com/zejji/DbContextScopeEFCore))
 - Cysharp/Ulid ([GitHub](https://github.com/Cysharp/Ulid))
@@ -180,9 +180,11 @@ Marten is a powerful library which allows PostgreSQL to be used a hybrid/NoSQL d
 
 # PDF generation
 
+There aren't many PDF generators that don't rely on headless browser rendering of HTML (regardless of programming language; cf. e.g. [mpdf](https://github.com/mpdf/mpdf) in PHP, although the source code looks hard-to-maintain). However, the non-browser approach yields much better performance. QuestPDF is one such library on .NET. 
+
 ### Recommended
 
-- QuestPDF ([Homepage](https://www.questpdf.com/) | [GitHub](https://github.com/QuestPDF/QuestPDF))
+- QuestPDF ([Homepage](https://www.questpdf.com/) | [GitHub](https://github.com/QuestPDF/QuestPDF)) (**NB: PAID license**)
 
 # Reverse Proxy/API Gateway
 
