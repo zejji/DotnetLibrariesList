@@ -14,12 +14,13 @@ Each section lists a recommended library or libraries, optionally followed by on
 - [Encryption](#encryption)
 - [ETL](#etl)
 - [Event/Message Bus](#eventmessage-bus)
-- [GUI applications](#gui-applications)
+- [File Storage](#file-storage)
+- [GUI Applications](#gui-applications)
 - [Logging](#logging)
 - [Markdown to HTML](#markdown-to-html)
-- [Mediator pattern](#mediator-pattern)
+- [Mediator Pattern](#mediator-pattern)
 - [ORM and Database Access](#orm-and-database-access)
-- [PDF generation](#pdf-generation)
+- [PDF Generation](#pdf-generation)
 - [Reverse Proxy/API Gateway](#reverse-proxyapi-gateway)
 - [Testing](#testing)
 - [Workflows](#workflows)
@@ -32,6 +33,10 @@ Hangfire is a mature and powerful background job manager which requires minimal 
 
 - Hangfire ([Homepage](https://www.hangfire.io/) | [Github](https://github.com/HangfireIO/Hangfire))
 - StackExchange.Hangfire.Redis ([Github](https://github.com/marcoCasamento/Hangfire.Redis.StackExchange))
+
+### Alternatives
+
+- Quartz.NET ([Homepage](https://www.quartz-scheduler.net/) | [GitHub](https://github.com/quartznet/quartznet))
 
 # Caching
 
@@ -93,13 +98,25 @@ Scriban is a high-performance templating engine which can used not only for emai
 
 # Event/Message Bus
 
+CAP supports the transactional outbox pattern, which can be helpful for reliability. MessagePipe is by Cysharp, who is famous for high-performance libraries. Rebus has been around for a long time and is battle-tested and well-documented.
+
 ### Recommended
 
 - CAP ([Homepage](https://cap.dotnetcore.xyz/) | [GitHub](https://github.com/dotnetcore/CAP/))
+- MessagePipe ([GitHub](https://github.com/Cysharp/MessagePipe))
 
 ### Alternatives
 
 - Rebus ([Homepage](https://rebus.fm/) | [GitHub](https://github.com/rebus-org/Rebus))
+- MassTransit ([Homepage](https://masstransit.io/)) | [GitHub](https://github.com/MassTransit/MassTransit))
+
+# File Storage
+
+### Recommended
+
+FluentStorage is an abstraction for blob storage across multiple cloud providers (and local files). It is well-documented.
+
+- FluentStorage ([GitHub](https://github.com/robinrodricks/FluentStorage))
 
 # GUI applications
 
@@ -138,7 +155,7 @@ In advanced scenarios, when more than one database transaction may be required p
 - Entity Framework Core ([GitHub](https://github.com/dotnet/efcore))
 - EFCore.BulkExtensions ([GitHub](https://github.com/borisdj/EFCore.BulkExtensions/blob/master/README.md))
 - EF Core Second Level Cache Interceptor ([GitHub](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor))
-- DbContextScope.EFCore6 ([GitHub](https://github.com/zejji/DbContextScopeEFCore6))
+- DbContextScopeEFCore ([GitHub](https://github.com/zejji/DbContextScopeEFCore))
 
 ### Alternatives
 
@@ -169,9 +186,10 @@ Marten is a powerful library which allows PostgreSQL to be used a hybrid/NoSQL d
 
 ### Recommended
 
-A good combination of libraries for implementing tests is xUnit as the test framework, Bogus for the generation of fake data and FluentAssertions for assertions.
+A good combination of libraries for implementing tests is xUnit as the test framework, NSubstitute for test doubles, Bogus for the generation of fake data and FluentAssertions for assertions.
 
 - xUnit ([Homepage](https://xunit.net/) | [GitHub](https://github.com/xunit/xunit))
+- NSubstitute ([Homepage](https://nsubstitute.github.io/) | [GitHub](https://nsubstitute.github.io/))
 - Bogus ([GitHub](https://github.com/bchavez/Bogus))
 - FluentAssertions ([Homepage](https://fluentassertions.com/) | [GitHub](https://github.com/fluentassertions/fluentassertions))
 
