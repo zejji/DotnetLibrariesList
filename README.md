@@ -130,6 +130,10 @@ FluentStorage is an abstraction for blob storage across multiple cloud providers
 
 - ZLogger ([GitHub](https://github.com/Cysharp/ZLogger))
 
+### Alternatives
+
+- gelf-extensions-logging ([GitHub](https://github.com/mattwcole/gelf-extensions-logging))
+
 # Markdown to HTML
 
 - Markdig ([GitHub](https://github.com/xoofx/markdig))
