@@ -159,7 +159,7 @@ In advanced scenarios, when more than one database transaction may be required p
 To allow for primary keys that can be generated in application code and can be more efficiently sorted than standard GUIDs (particularly in databases which do not support non-clustered primary keys), consider [ULIDs](https://sudhir.io/uuids-ulids) or [COMB GUIDs](https://jim.blacksweb.com/2017/01/23/comb-guid-what-is-it-and-why-should-i-use-it/).
 
 - Entity Framework Core ([GitHub](https://github.com/dotnet/efcore))
-- EFCore.BulkExtensions ([GitHub](https://github.com/borisdj/EFCore.BulkExtensions/blob/master/README.md))
+- EFCore.BulkExtensions ([GitHub](https://github.com/borisdj/EFCore.BulkExtensions))
 - EF Core Second Level Cache Interceptor ([GitHub](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor))
 - DbContextScopeEFCore ([GitHub](https://github.com/zejji/DbContextScopeEFCore))
 - Cysharp/Ulid ([GitHub](https://github.com/Cysharp/Ulid))
