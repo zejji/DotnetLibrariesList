@@ -55,7 +55,9 @@ For a distributed Redis cache, one can use StackExchange.Redis together with the
 
 # Compile-time Dependency Injection
 
-ASP.NET Core has built-in [dependency injection feature](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-6.0) which is sufficient for most use-cases. However, the following source generator libraries promise increased performance:
+ASP.NET Core has built-in [dependency injection feature](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-6.0) which is sufficient for most use-cases. However, the following source generator libraries promise increased performance.
+
+Sadly, owing to the design of ASP.NET Core, it is not yet possible to fully integrate compile-time libraries and thereby fully replace the built-in runtime dependency injection mechanics:
 
 ### Recommended
 
