@@ -174,7 +174,7 @@ The following are lighter-weight alternatives which do not offer the full functi
 - RepoDb ([Homepage](https://repodb.net/) | [GitHub](https://github.com/mikependon/RepoDB))
 - linq2db ([GitHub](https://github.com/linq2db/linq2db))
 
-Marten is a powerful library which allows PostgreSQL to be used a hybrid/NoSQL database:
+Marten is a powerful library which allows PostgreSQL to be used as a hybrid/NoSQL database:
 
 - Marten ([Homepage](https://martendb.io/) | [GitHub](https://github.com/JasperFx/marten))
 
